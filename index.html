@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+
+    <title>shubbyflix</title>
+  </head>
+  <body>
+    <h1>ShubbyFlix</h1>
+<div class="section">
+    <div class="sidebar">
+        <h2>Genres</h2>
+        <ul>
+          <li><a href="#" onclick="getMoviesByGenre(28)">Action</a></li>
+          <li><a href="#" onclick="getMoviesByGenre(12)">Adventure</a></li>
+          <li><a href="#" onclick="getMoviesByGenre(16)">Animation</a></li>
+          <li><a href="#" onclick="getMoviesByGenre(35)">Comedy</a></li>
+          <li><a href="#" onclick="getMoviesByGenre(80)">Crime</a></li>
+          <li><a href="#" onclick="getMoviesByGenre(99)">Documentary</a></li>
+          <li><a href="#" onclick="getMoviesByGenre(18)">Drama</a></li>
+          <li><a href="#" onclick="getMoviesByGenre(10751)">Family</a></li>
+          <li><a href="#" onclick="getMoviesByGenre(14)">Fantasy</a></li>
+          <li><a href="#" onclick="getMoviesByGenre(36)">History</a></li>
+          <li><a href="#" onclick="getMoviesByGenre(27)">Horror</a></li>
+          <li><a href="#" onclick="getMoviesByGenre(10402)">Music</a></li>
+          <li><a href="#" onclick="getMoviesByGenre(9648)">Mystery</a></li>
+          <li><a href="#" onclick="getMoviesByGenre(10749)">Romance</a></li>
+          <li>
+            <a href="#" onclick="getMoviesByGenre(878)">Science Fiction</a>
+          </li>
+          <li><a href="#" onclick="getMoviesByGenre(10770)">TV Movie</a></li>
+          <li><a href="#" onclick="getMoviesByGenre(53)">Thriller</a></li>
+          <li><a href="#" onclick="getMoviesByGenre(10752)">War</a></li>
+          <li><a href="#" onclick="getMoviesByGenre(37)">Western</a></li>
+        </ul>
+      </div>
+      <div class="container">
+     
+        <div class="hero-section" id="heroSection">
+          <!-- Hero movie will be displayed here -->
+        </div>
+<div class="Search">
+    <input type="text" id="searchInput" placeholder="Search for a movie" />
+    <button onclick="searchMovies()">Search</button>
+</div>
+        
+       
+      </div>
+      <div id="movieResults"></div>
+</div>
+    
+    <script src="index.js"></script>
+  </body>
+</html>
